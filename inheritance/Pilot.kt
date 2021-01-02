@@ -1,6 +1,6 @@
 package inheritance
 	
-	class pilot : Karyawan() {
+	class Pilot : Karyawan() {
 	
 	    var maskapai : String = ""
 	
