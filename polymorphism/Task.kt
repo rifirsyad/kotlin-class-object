@@ -2,7 +2,7 @@ package polymorphism
 
 fun main() {
 
-    val afrig = Dosen_poly()
+    val afrig = Dosen()
     afrig.nama = "Afrig Aminuddin"
     afrig.alamat = "Condongcatur"
     afrig.perkenalan()
@@ -11,14 +11,14 @@ fun main() {
     afrig.prodi = "Sistem Informasi"
     afrig.mengajar()
 
-    val andika = Mahasiswa_poly()
+    val andika = Mahasiswa()
     andika.nama = "Andika Maharani"
     andika.alamat = "Bantul"
     andika.perkenalan()
     andika.prodi = "Sistem Informasi"
     andika.belajar()
 
-    val budi = Satpam_poly()
+    val budi = Satpam()
     budi.nama = "Budi Satria"
     budi.alamat = "Wonosari"
     budi.perkenalan()
@@ -27,7 +27,7 @@ fun main() {
     budi.pos = "Barat"
     budi.menjaga()
     
-    val adi = Pilot_poly()
+    val adi = Pilot()
     budi.nama = "Adi Prasetyo"
     budi.alamat = "Sleman"
     budi.perkenalan()
@@ -36,7 +36,7 @@ fun main() {
     budi.maskapai = "Lion Air"
     budi.bekerja()
     
-    val nina = perawat_poly()
+    val nina = Perawat()
     budi.nama = "Nurlina Nina"
     budi.alamat = "Pati"
     budi.perkenalan()
@@ -45,7 +45,7 @@ fun main() {
     budi.klinik = "Sehat Sentosa"
     budi.bekerja()
     
-    val mina = Pramugari_poly()
+    val mina = Pramugari()
     budi.nama = "Mina Lestari"
     budi.alamat = "Jepara"
     budi.perkenalan()
@@ -54,7 +54,7 @@ fun main() {
     budi.maskapai = "Air Asia"
     budi.bekerja()
     
-    val arka = Dokter_poly()
+    val arka = Dokter()
     budi.nama = "Arkana Mahesa"
     budi.alamat = "Jakarta"
     budi.perkenalan()
@@ -63,7 +63,7 @@ fun main() {
     budi.klinik = "Sehat Mulia"
     budi.bekerja()
     
-    val dito = Chef_poly()
+    val dito = Chef()
     budi.nama = "Dito Nugroho"
     budi.alamat = "Palembang"
     budi.perkenalan()
@@ -72,7 +72,7 @@ fun main() {
     budi.restoran = "Kenyang Nikmat"
     budi.memasak()
     
-    val Arman = Polisi_poly()
+    val Arman = Polisi()
     budi.nama = "Arman Pradityo"
     budi.alamat = "Bali"
     budi.perkenalan()
