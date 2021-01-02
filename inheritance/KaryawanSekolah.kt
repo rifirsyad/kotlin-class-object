@@ -1,6 +1,6 @@
 package inheritance
 
-open class KaryawanSekolah : orang(){
+open class KaryawanSekolah : Orang() {
     var nip: String = ""
     var gaji: Int = 0
 
