@@ -1,6 +1,6 @@
 package inheritance
 	
-	class perawat : Karyawan() {
+	class Perawat : Karyawan() {
 	
 	    var klinik: String = ""
 	
