@@ -1,7 +1,6 @@
 package inheritance
 
 fun main() {
-
     val afrig = Dosen()
     afrig.nama = "Afrig Aminuddin"
     afrig.alamat = "Condongcatur"
@@ -36,7 +35,7 @@ fun main() {
     budi.maskapai = "Lion Air"
     budi.bekerja()
     
-    val nina = perawat()
+    val nina = Perawat()
     budi.nama = "Nurlina Nina"
     budi.alamat = "Pati"
     budi.perkenalan()
@@ -72,7 +71,7 @@ fun main() {
     budi.restoran = "Kenyang Nikmat"
     budi.memasak()
     
-    val Arman = Polisi()
+    val arman = Polisi()
     budi.nama = "Arman Pradityo"
     budi.alamat = "Bali"
     budi.perkenalan()
